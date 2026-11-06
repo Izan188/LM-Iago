@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Página Izan</title>
+</head>
+<body>
+    <figure>
+        <a href="Ejercicio15_1"><img src="../img/33.jpeg" alt="Katarina"></a>
+        <figcaption>Imagen de Katarina</figcaption>
+    </figure>
+</body>
+</html>

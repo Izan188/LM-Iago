@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Página Izan</title>
+</head>
+<body>
+    <a href="http://www.edu.xunta.gal/portal">Portal de educación de la Xunta</a>
+    <br>
+    <a href="http://www.edu.xunta.es/fp"  target="_blank">Portal de educación Formación profesional de la Xunta</a>
+</body>
+</html>

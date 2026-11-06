@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Página Izan</title>
+</head>
+<body>
+    <h1>Lista de Definiciones Letra V</h1>
+    <dl>
+        <dt>Val</dt>
+            <dd>Parte baixa dun terreo situada entre montañas ou elevacións, xeralmente percorrida por un río ou regato.</dd>
+        <dt>Vela</dt>
+            <dd>Peza de tea ou doutro material que, colocada nun barco, recibe a forza do vento e permite a súa navegación.</dd>
+        <dt>Vento</dt>
+            <dd>Movemento do aire producido por diferenzas de presión na atmosfera.</dd>
+        <dt>Verán</dt>
+            <dd>Estación do ano que segue á primavera e precede ao outono.</dd>
+        <dt>Vila</dt>
+            <dd>Pobo ou localidade de certa importancia, maior ca unha aldea e menor ca unha cidade.</dd>
+    </dl>
+</body>
+</html>

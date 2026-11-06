@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Página Izan</title>
+</head>
+<body>
+    <h1>Patatas Fritas</h1>
+    <figure>
+        <img src="../img/16-patatas-fritas.png" alt="Patatas Fritas" width="288" height="185">
+        <figcaption>Patatas Fritas Caseras</figcaption>
+    </figure>
+    <h2>Ingredientes</h2>
+    <ul>
+        <li>3 o 4 Patatas</li>
+        <li>4 dientes de ajo</li>
+        <li>Aceite de oliva</li>
+        <li>Sal</li>
+    </ul>
+    <h2>Elaboración(Pasos)</h2>
+    <ol>
+        <li>Calentar aceite en una sartén.</li>
+        <li>Añadir las patatas cortadas, la sal y los ajos</li>
+        <li>Freir al gusto</li>
+        <li>Servir en plato</li>
+    </ol>
+</body>
+</html>

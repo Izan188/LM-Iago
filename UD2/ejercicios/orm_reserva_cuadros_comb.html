@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Reserva de habitación</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <form action="reserva.php" method="get">
+        <fieldset>
+            <legend>Datos del solicitante</legend>
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="nombreusuario" name="nombreusuario" maxlength="100" size="50" required autofocus>
+        <br>
+        <label for="Teléfono">Teléfono de contacto</label>
+        <input type="tel" id="telefono" name="telefono" maxlength="9" placeholder="9 Numeros" size="10">
+        <p>DNI (Seleccione un archivo de imagen)<input type="file" accept="image/*"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de la reserva</legend>
+            <label for="habitacion">Habitación:</label><br>
+        <select name="menu" size="4">
+            <option value="Azul" selected>Azul</option>
+            <option value="Verde">Verde</option>
+            <option value="Amarilla">Amarilla</option>
+            <option value="Morada">Morada</option>
+        </select>
+        <br><lablel for="reserva">Reserva:</lablel><br>
+        <select name="Individual" size="2">
+            <option value="Individual">Individual</option>
+            <option value="Doble" selected>Doble</option>
+        </select>
+        <br><label for="Provincia">Provincia:</label><br>
+        <select id="Porvincia" name="Provincia">
+            <optgroup label="Galicia">
+                <option value="C">La Coruña</option>
+                <option value="P">Pontevedra</option>
+                <option value="L">Lugo</option>
+                <option value="O">Orense</option>
+            </optgroup>
+            <optgroup label="Galicia">
+                <option value="V">Vizcaya</option>
+                <option value="G">Guipúzcoa</option>
+                <option value="A">Álava</option>
+            </optgroup>
+        </select>
+        </fieldset><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+</body> 
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Página Izan</title>
+</head>
+<body>
+    <p>Párrafo 1</p>
+    <!-- este es mi primer parrafo generado-->
+    <p>Párrafo 2</p>
+    <p>Párrafo 3</p>
+    <!-- viva vigo-->
+    <p>Párrafo 4</p>
+</body>
+</html>

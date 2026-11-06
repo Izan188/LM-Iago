@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Formulario de incidencia</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <form action="incidencia.php" method="get">
+        <fieldset>
+            <legend>Incidencias</legend>
+        <label for="usuario"><b>Usuario</b></label>
+        <input type="text" id="usuario" name="usuario" placeholder="(Nombre y Apellidos)" maxlength="20" size="15">
+        <br>
+        <input type="radio" name="tipodeusuario" value="Profesor"/>Profesor<br>
+        <input type="radio" name="tipodeusuario" value="Alumno"/>Alumo<br>
+        <label for="lugar"><b>Lugar</b><L/label><br>
+        <input type="radio" name="lugar" value="Departamento"/>Departamento<br>
+        <input type="radio" name="lugar" value="Aula"/>Aula<br>
+        <input type="radio" name="lugar" value="Equipo" checked/>Equipo<br>
+        <input type="text" id="lugarespecifico" name="lugar" placeholder="Especificar Sitio"/><br>
+        <label for="urgencia"><b>Nivel de Urgencia</b></label><br>
+        <input type="radio" name="urgencia" value="Alto"/>Alto<br>
+        <input type="radio" name="urgencia" value="Medio"/>Medio<br>
+        <input type="radio" name="urgencia" value="Bajo" checked/>Bajo<br>
+        <label for="Descripcion"><b>Descripción Incidencia</b></label><br>
+        <textarea name="comentario" rows="4" cols="40" placeholder="Escribe aquí la decripción de la incidencia"></textarea>
+        <laber for="Correo">Me gustaría recibir un correo una vez se haya resuelto la incidencia</laber>
+        <input type="checkbox" name="correo" value="on" checked/>
+    </select>
+        </fieldset>
+        <input type="submit" value="Enviar"/>
+        <input type="reset" value="Resetear"/>
+    </form>
+</body>
+</html>

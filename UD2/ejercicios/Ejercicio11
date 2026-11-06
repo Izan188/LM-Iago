@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Lenguajes de marcas</title>
+</head>
+<body>
+    <h1>Blog de lenguaje de marcas</h1>
+    <a href="11-Ejercicio-enlaces-xml.htm#XML">Lenguaje XML</a>
+    <br>
+    <a href="11-Ejercicio-enlaces-html.html#HTML">Lenguaje HTML</a>
+</body>
+</html>

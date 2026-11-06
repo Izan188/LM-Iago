@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Página Izan</title>
+</head>
+<body>
+    <img src="../img/map_area.png" usemap="#formas"/>
+
+    <map name="formas">
+        <area shape="rect" coords="37,18,244,104" href="https://es.wikipedia.org/wiki/Rect%C3%A1ngulo"/>
+        <area shape="rect" coords="365, 14,545,152" href="https://es.wikipedia.org/wiki/Cuadrado"/>
+        <area shape="poly" coords="38, 372,134, 209,230, 372" href="https://es.wikipedia.org/wiki/Tri%C3%A1ngulo"/>
+        <area shape="circle" coords="462,295,90" href="https://es.wikipedia.org/wiki/C%C3%ADrculo"/>
+    </map>
+</body>
+</html>

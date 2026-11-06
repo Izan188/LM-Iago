@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Página Izan</title>
+</head>
+<body>
+    <h1 id="Indice">Indice</h1>
+    <ol start="1">
+        <li>Historia</li>
+        <li>Definición</li>
+        <li>Gestión de contenido</li>
+        <li>Otras consideraciones iniciales</li>
+        <li>Operación</li>
+        <li>Gestión de usuarios</li>
+    </ol>
+</body>
+</html>

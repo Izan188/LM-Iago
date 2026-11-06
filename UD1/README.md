@@ -34,7 +34,7 @@ git commit -m ""
 ```
 
 5. Conectar con github
-```ash
+```bash
 git remote add original url-repositorio
 git branch -M main
 git push -u origin main
@@ -48,3 +48,14 @@ git push -u origin main
 |Live Preview|![Live Preview](img/LivePreview.png)|Visualizar css según escribes codigo.|
 |XML|![HTML CSS Support](img/XML.png)|Facilitar la escritura con autocompletados en xml.|
 |HTML CSS Suport|![HTML CSS Support](img/HTMLCSSSupport.png)|Facilitar la escritura con autocompletados en CSS y HTML.|
+
+6. Enviar repositorio de un sitio a otro
+```bash
+git clone "enlace de repositorio en git"
+```
+- Desde la nueva máquina
+```bash
+git add .
+git commit -d ""
+git push
+```

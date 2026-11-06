@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Formularios</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <form action="validar.php" method="get">
+        <p>Vamos a probar diferentes valores de type de HTML5 para la etiqueta input</p>
+        <fieldset>
+            <legend>Para datos personales</legend>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" maxlength="9" autocomplete="on" placeholder="9 números"><br>
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo" autocomplete="on" maxlength="50" placeholder="El formato correcto es nombre+@+servidor de correo"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Para valores numéricos</legend>
+            <label for="numeropersonas">Número de Personas</label>
+            <input type="number" id="numeropersonas" name="numeropersonas" min="1" max="20" step="1" value="1"><br>
+            <label for="puntuacion">Mueve la barra para indicar puntuación (Del 1 al 10)</label>
+            <input type="range" id="puntuacion" name="puntuacion" min="1" max="10" step="1" value="1">
+        </fieldset>
+        <fieldset>
+            <legend>Url y búsqueda</legend>
+            <label for="url">Url del sitio</label>
+            <input type="url" id="url" name="url"><br>
+            <label for="info">Qué te interesa saber</label>
+            <input type="search" id="busqueda" name="busqueda">
+        </fieldset>
+        <fieldset>
+            <legened>Otros tipos</legened>
+            <label for="color">Color</label>
+            <input type="color" id="color" name="color">
+        </fieldset>
+        <fieldset>
+            <legend>Para fechas</legend>
+            <label for="dia">Seleccione un día (Hasta fin de año):</label>
+            <input type="date" id="dia" name="dia" max="2026-12-31"><br>
+            <label for="hora">Selecciona una hora:</label>
+            <input type="time" id="hora" name="hora"><br>
+            <label for="mes">Seleccione un mes (Hasta Junio del 2020):</label>
+            <input type="month" id="mes" name="mes" max="2020-6-31">
+            <br>
+            <label for="week">Selecciona una semana (Hasta Junio de 2020):</label>
+            <input type="week" id="week" name="week"> <br>
+            <label for="fechayhora">Selecciona Fecha y Hora:</label>
+            <input type="datetime-local" id="fechayhora" name="fechayhora">
+        </fieldset>
+        <button type="submit" value="Validar"><img src="/UD2/ejercicios/undeadwarlock.jpeg" height="100">Enviar</button>
+        <button type="reset" value="Limpiar"></button>
+    </form>
+</body>
+</html>

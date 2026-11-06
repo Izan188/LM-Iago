@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Página Izan</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Población</th>
+                <th>Hombres</th>
+                <th>Mujeres</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Alemania</th>
+                <td>82</td>
+                <td>42</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <th>Francia</th>
+                <td>65</td>
+                <td>31</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <th>Reino Unido</th>
+                <td>63</td>
+                <td>31</td>
+                <td>32</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Página Izan</title>
+</head>
+<body>
+    <figure>
+        <img src="undeadwarlock.jpeg" alt="Undead Warlock" widht="300" height="450">
+        <figcaption>Vista del Personaje Warlock Undead</figcaption>
+        <img src="../img/undeadrogue.jpeg" at="Undead Rogue">
+        <figcaption>Vista del Personaje Warlock Rogue</figcaption>
+    </figure>
+</body>
+</html>

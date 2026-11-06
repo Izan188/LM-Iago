@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Página Izan</title>
+</head>
+<body>
+    <figure>
+        <a href="Ejercicio15_2"><img src="../img/1.jpeg" alt="Zed"></a>
+        <figcaption>Imagen de Zed</figcaption>
+    </figure>
+</body>
+</html>
